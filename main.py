@@ -1,22 +1,9 @@
 import os
 import shutil
 
-#  read the contenets
-# join path to the file name
-#  move the files
 
-
-# navigatte to different directory
-# move files from downloads to documents
-
-# The way I coded this is not the most efficient way of creating a file organizer.
-# I created more readable code that that is broken up into multiple functions, and would be better for reusability.
-# This is my first time using OS and shutil, so once I am more familiar then I will be able to use less code and create more complex functions.
-
-
-source_directory = "/Users/kurtisc/Downloads/"
-
-destination_directory = "/Users/kurtisc/Documents"
+source_directory = os.path.expanduser("~/Downloads")
+destination_directory = os.path.expanduser("~/Documents")
 
 
 category_keywords = {
