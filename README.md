@@ -6,7 +6,7 @@ This is a simple Python script that organizes files from the `Downloads` folder 
 
 The way I coded this is not the most efficient way of creating a file organizer.
 I created a bit more simple code that that is broken up into multiple functions, and would be better for reusability.
-This is my first time using OS and shutil, so once I am more familiar then I will be able to use less code and create more complex functions.
+This is my first time using OS and shutil, so when I have more familiarity withe the modules then I will be able to use less code and create more complex functions.
 
 ## Features
 
