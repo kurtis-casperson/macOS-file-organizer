@@ -63,25 +63,9 @@ def categorizeFiles():
             print(f"Moved {file} to {destination_folder}")
 
 
-# create new folders and loop over
-moveFiles()
-categorizeFiles()
-
-#     new_file = file.strip()
-#     return new_file
+def manageFilesWorkFlow():
+    moveFiles()
+    categorizeFiles()
 
 
-# print(test(file))
-
-
-#     split_file = file.split()
-#     for i in split_file:
-#         if i == '-':
-#             i.strip()
-#     file.replace(' ', '')
-
-
-# strip_file = file.strip()
-# new_file = file.replace("-", "-").replace(" ", "")
-
-# # new_file = strip_file.replace(" ", "").replace("-", "-")
+manageFilesWorkFlow()
