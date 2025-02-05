@@ -118,13 +118,3 @@ If you want to run it **without `python3`**, do this:
    ✔ Runs the script **without needing to type `python3`**.
 
 ---
-
-### **🚀 Summary**
-
-| **Goal**                       | **Command**                                                              |
-| ------------------------------ | ------------------------------------------------------------------------ |
-| Give script execute permission | `chmod +x ~/python-projects/file-organizer/main.py`                      |
-| Open shell profile             | `nano ~/.zshrc`                                                          |
-| Add alias                      | `alias fileorganizer="python3 ~/python-projects/file-organizer/main.py"` |
-| Apply changes                  | `source ~/.zshrc`                                                        |
-| Run script from anywhere       | `fileorganizer`                                                          |
